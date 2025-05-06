@@ -118,3 +118,46 @@ nav button > span > img{
 .dot:first-child{
     background-color: var(--button-primary);
 }
+
+/* ----------------------------------------------------------------------------- */
+
+#community{
+    padding: 3rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.community-text > h2{
+    color: #4D4D4D;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+.community-text > p{
+    color: #717171;
+}
+
+.logo-slider{
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    /* border: 2px solid var(--action-danger); */
+    position: relative;
+    justify-content: start;
+    overflow: hidden;
+}
+.logo-container{
+    display: flex;
+    gap: 8rem;
+    padding-right: 8rem;
+    animation: marquee 10s linear infinite both;
+}
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
