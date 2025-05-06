@@ -19,6 +19,7 @@
 html , body{
     height: 100%;
     width: 100%;
+    user-select: none;
 }
 header{
     width: 100%;
@@ -314,7 +315,7 @@ main{
     justify-content: space-between;
     align-items: center;
   }
-  .tim-smith-right-logo > button{
+  .cta{
     border: none;
     color: var(--button-primary);
     font-size: 1.2rem;
@@ -323,4 +324,138 @@ main{
 
 button{
     cursor: pointer;
+}
+
+/* ------------------------------------------------------- */
+
+#caring{
+    text-align: center;
+    /* margin: 3rem 0; */
+    padding: 3rem;
+}
+#caring h2{
+    font-size: 2.5rem;
+    color: #4D4D4D;
+    font-weight: 500;
+    line-height: 2;
+}
+#caring p{
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #717171;
+    width: 32%;
+}
+#caring-cards{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.caring-card{
+    /* border: 1px solid red; */
+    position: relative;
+
+}
+.overlay{
+    width: 80%;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 8px 16px 0 #ABBED166;
+    background-color: var(--neutral-silver);
+    z-index: 2;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.overlay > h3{
+    font-size: 1.2rem;
+    color: #717171;
+}
+.overlay > button{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+/* -------------------------------------------------------- */
+
+#demo{
+    background-color: var(--neutral-silver);
+    margin-top: 3rem;
+    padding: 2rem;
+    text-align: center;
+}
+#demo > h2{
+    margin: 0 auto;
+    font-size: 4rem;
+    color: #263238;
+    width: 40%;
+    margin-bottom: 2rem;
+}
+#demo > button{
+    margin: 0 auto;
+}
+
+/* --------------------------------------------------------- */
+
+footer{
+    padding: 3rem;
+    background-color: #263238;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+}
+#footer-left  p{
+    line-height: 1.75;
+}
+.footer-social-icons{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-right{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+#footer-right > .footer-col > h4{
+    font-size: 1.5rem;
+    line-height: 3;
+}
+#footer-right > .footer-col > p{
+    font-size: 1rem;
+    line-height: 2;
+    color: #F5F7FA;
+}
+.input-container{
+    position: relative;
+}
+.footer-col  input{
+    border: none;
+    background-color: #80808055;
+    padding: 12px;
+    border-radius: 5px;
+    color: var(--primary-color);
+}
+.footer-col  input::placeholder{
+    color: #D9DBE1;
+}
+.footer-col  input:focus{
+    outline: none;
+}
+.input-container > button{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    z-index: 2;
 }
