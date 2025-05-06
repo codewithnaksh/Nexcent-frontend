@@ -3,6 +3,15 @@
 This project is a fully responsive **Landing Page** meticulously converted from a **Figma design** to production-ready **HTML and CSS**.  
 It reflects my ability to accurately interpret design specs, manage layout hierarchies, and write clean, maintainable code.
 
+---
+
+## 🔗 Live Demo & Design
+
+- 🔴 **Live Project:** [View on GitHub Pages](https://yourusername.github.io/figma-landing-page/)  
+- 🎨 **Figma Design:** [Open Figma File]([https://www.figma.com/file/your-file-link](https://www.figma.com/design/IXBBPDW90fgxFF5X7ST6m8/Responsive-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design--Community-?node-id=5-573&t=EOtChCIlHvzldIm6-0))
+
+---
+
 ![Landing Page Preview](./assets/preview.png) <!-- Optional: Add a screenshot -->
 
 ---
