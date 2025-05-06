@@ -3,7 +3,7 @@
 This project is a fully responsive **Landing Page** meticulously converted from a **Figma design** to production-ready **HTML and CSS**.  
 It reflects my ability to accurately interpret design specs, manage layout hierarchies, and write clean, maintainable code.
 
-![Landing Page Preview](preview.png) <!-- Optional: Add a screenshot -->
+![Landing Page Preview](./assets/preview.png) <!-- Optional: Add a screenshot -->
 
 ---
 
